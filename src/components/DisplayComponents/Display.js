@@ -1,7 +1,11 @@
 import React from "react";
 
 const Display = props => {
-  return <div><h1>80085</h1>}</div>;
+  return (
+    <div className='display'>
+      <p className='display-text'>{props.calcDisplay}</p>
+    </div>
+    );
 };
 
 export default Display;
